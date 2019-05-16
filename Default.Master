@@ -1,0 +1,119 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Default.master.cs" Inherits="crepcheck.Default" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link rel = "stylesheet" type = "text/css" href = "Default.css" />
+
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+            <!--heading-->
+            <!--menu-->
+            <div class="topnav" id="myTopnav">
+              <a href="#home" class="active">Home</a>
+              <a href="#news">News</a>
+                  <div class="dropdown">
+                    <button class="dropbtn">Brands<i class="fa fa-caret-down"></i></button>
+                    <div class="dropdown-content">
+                      <a href="#">adidas</a>
+                      <a href="#">adidas Originals</a>
+                      <a href="#">Asics</a>
+                      <a href="#">Arena</a>
+                      <a href="#">Babolat</a>
+                      <a href="#">berghaus</a>
+                      <a href="#">Bjorn Borg</a>
+                      <a href="#">Brookhaven</a>
+                      <a href="#">BOXRAW</a>
+                      <a href="#">Calvin Klein</a>
+                      <a href="#">Canterbury</a>
+                      <a href="#">Carbrini</a>
+                      <a href="#">Champion</a>
+                      <a href="viewall.aspx">View All Brands</a>
+                        <!--
+                      <a href="#">Columbia</a>
+                      <a href="#">Converse</a>
+                      <a href="#">Copa</a>
+                      <a href="#">Crep Protect</a>
+                      <a href="#">Criminal Damage</a>
+                      <a href="#">Cruyff</a>
+                      <a href="#">11 Degrees</a>
+                      <a href="#">Diadora</a>
+                      <a href="#">Duffer of St George</a>
+                      <a href="#">EA7</a>
+                      <a href="#">Ellesse</a>
+                      <a href="#">Fila</a>
+                      <a href="#">Fred Perry</a>
+                      <a href="#">Franklin & Marshal</a>
+                      <a href="#">G-Form</a>
+                      <a href="#">Good For Nothing</a>
+                      <a href="#">Hype</a>
+                      <a href="#">Head</a>
+                      <a href="#">Helly Hansen</a>
+                      <a href="#">Havaianas</a>
+                      <a href="#">Jack Wolfskin</a>
+                      <a href="#">Jordan</a>
+                      <a href="#">Juicy By Juicy Couture</a>
+                      <a href="#">Kappa</a>
+                      <a href="#">Kickers</a>
+                      <a href="#">Lacoste</a>
+                      <a href="#">Le Coq Sportif</a>
+                      <a href="#">Lyle & Scott</a>
+                      <a href="#">Macron</a>
+                      <a href="#">McKenzie</a>
+                      <a href="#">Mr Lacy</a>
+                      <a href="#">Nanny State</a>
+                      <a href="#">Napapijri</a>
+                      <a href="#">New Balance</a>
+                      <a href="#">New Era</a>
+                      <a href="#">Nike</a>
+                      <a href="#">Nicce</a>
+                      <a href="#">Nike Skateboarding</a>
+                      <a href="#">Original Penguin</a>
+                      <a href="#">Pink Soda Sport</a>
+                      <a href="#">Polo Ralph Lauren</a>
+                      <a href="#">Puma</a>
+                      <a href="#">Reebok</a>
+                      <a href="#">Sergio Tacchini</a>
+                      <a href="#">Sorel</a>
+                      <a href="#">Slydes</a>
+                      <a href="#">SikSilk</a>
+                      <a href="#">Sonneti</a>
+                      <a href="#">Speedo</a>
+                      <a href="#">Supply & Demand</a>
+                      <a href="#">Superdry</a>
+                      <a href="#">Shock Doctor</a>
+                      <a href="#">The North Face</a>
+                      <a href="#">Tommy Hilfiger</a>
+                      <a href="#">TOMS</a>
+                      <a href="#">Timberland</a>
+                      <a href="#">Umbro</a>
+                      <a href="#">Under Armour</a>
+                      <a href="#">Vans</a>
+                      <a href="#">Wilson</a>
+                      <a href="#">Zoggs</a>
+                        -->
+                    </div>
+                  </div>
+              <a href="#newrel">New Releases</a>
+              <a href="#reviews">Reviews</a>
+              <a href="#contact">Contact</a>
+              <a href="#about">About</a>
+              <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+            </div>
+
+            <asp:ContentPlaceHolder ID="Content1" runat="server">
+            </asp:ContentPlaceHolder>
+            <asp:ContentPlaceHolder ID="Ad" runat="server">
+            </asp:ContentPlaceHolder>
+            <asp:ContentPlaceHolder ID="Content2" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+</body>
+</html>
